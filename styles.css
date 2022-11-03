@@ -1,0 +1,111 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    /*background-color:cornflowerblue;
+    background-image: url(../image/fond.png);
+    background-size: 400px; 
+    background-repeat:no-repeat:
+    background-position:top center;*//*background-size: 100%, 200px 如果用100%表示什么意思*/
+    background: cornflowerblue url(../image/fond.png) no-repeat; 
+    background-attachment: fixed;/*l'image de fond est fixe*/
+    background-size:cover;
+}
+
+
+/*1:secteur par balise - ici:tous les <h1> */
+h1{
+    /*color{color:blue;*/
+    /*color:#0000FF;*/
+    /*color:rgb(0,0,235);*/
+    /*color:rgb(0,0,235,0,5);*/
+
+}
+
+/* 2 sélecteur par id - ici: la balise qui à id="titrePrincipal"*/
+#titrePrincipal{
+     font-size: 3em;
+    /*% pt px em rem vw vh*/
+    text-shadow: 2px 2px 5px rebeccapurple (0,0,0,0,0); /*css3 generator*/
+}
+
+/* 3:secteur par class - ici, les balises qui ont class="bt" */
+.bt{
+    background-color: aquamarine; /* couleur de fond */
+    text-decoration: none;/* none / underline (soulignement) */ 
+    color:black /* couleur de texte */
+    front-style: normal;/* normal / italic */
+    padding:5px; /* marges internes */
+    margin:5px;/* marges externes */
+    display:inline-block;
+    border: 1px solid black;/* bordures */
+
+}
+
+.big{
+    font-size: 1.4em;
+    front-weight:bold;/*normal/bold (gras)*/
+}
+
+/*4:sélecteur par descendance - ici: les <strong> dans les <address>*/
+address strong{
+    text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+    border-radius: 30px;
+}
+table tr td{
+   border:3px solid blue
+}
+
+
+table img{
+    margin-right:20px;
+    margin-left:20px;
+}
+
+/*#xppro(
+    background:red;
+    border:10px dashed crimson; /*bordures (solid/dashed/double/dotted/groove/etc.)*/
+    padding: 10px 20px 30px 40px; /*marge interne:1 valeur-4cotés*/2 valeur
+)*/
+
+#expériencesprofessionnelles{
+    border:10px dashed crimson; /* bordures (solid / dashed / double / dotted / groove / etc. )*/
+}
+
+#formaton{
+    border:10px dashed crimson; /* bordures (solid / dashed / double / dotted / groove / etc. )*/
+}
+
+#centresdinterets{
+    border:10px dashed crimson; /* bordures (solid / dashed / double / dotted / groove / etc. )*/
+}
+
+.zoneCV{
+    color: white;
+    background:rgba(255,255,255,0,0);
+    border:10px dashed crimson; /* bordures (solid / dashed / double / dotted / groove / etc. )*/
+    padding:10px 20px 30px 40px; /* marge interne : 1 valeur=4cotés / 2 valeurs=vertical+horizontal / 3 valeurs=haut+gaucheEtDroite+bas / 4 valeurs=haut+droite+bas+gauche */
+    margin:20px;
+    width:500px;
+    /*height:500px;*/
+    text-align: center;
+    border-radius:20px;
+    box-
+}
+
+/*mediaquery pour mobiles*/
+@media only screen and (max-width:500px){
+    
+    h1{
+        color:lime; 
+    }
+}
+#bandeau ul li .bt{
+
+}
+
+ul#menu .li.bt a{
+
+}

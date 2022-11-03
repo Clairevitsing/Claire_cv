@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <!-- infos générales -->
+<head>
+    <!-- encodage -->
+    <meta charset="UTF-8">
+    <!-- titre dans l'onglet -->
+    <title>Mon beau site</title>
+    <!-- pour mediaquaries -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- inclusion css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/ms-icon-144x144.png">
+
+</head>
+
+<!-- corps de la page -->
+<body>
+    <h1>Titre 1</h1>
+
+    <!-- <a href="">Bouton 1</a> -->
+
+    <!-- <table border="1" cellpadding="10" cellpadding="10"> css里面的table img{
+    margin-right:20px 代替}-->
+    <tr>
+        <td>
+            <img src="image/abc.PNG" alt="moi" width="200">
+        </td>
+        <td>
+        <!-- coordonnées 关于bt big 同时背景蓝色，同时big-->
+        <address>
+           <strong> Claire</strong>
+           <br>
+           43 place des basses barolles
+           <br>
+           <em>06 58 99 06 57</em>
+           <br>
+           <a class="bt big" href="contact.html">Me contacter</a>
+           <br>
+           <!-- lien mail -->
+           <a class="bt" href="mailto:zhaoclaire11@gmail.com"> zhaoclaire11@gmail.com</a>
+           <br>
+           <!-- lien vers site externe -->
+           <a class="bt" href="http://css3generator.com/" target="_blank">css3generator.com</a>
+    </address>
+    </td>
+    </tr>
+    </table>
+    
+    
+    <!-- titre de 1er niveau (heading 1)同一个页面不能定义两个titreprincipal -->
+    <h1 id="titrePrincipal">Curriculum Vitae</h1>
+
+    <!-- citation -->
+    <blockquote>
+    <q>le <mark>coeur</mark> à ses Raisons que la raion ignore</q>
+    <!-- header footer nav article section aside -->
+    <footer> <em>Blaise Pascal</em>, <cite>Pensées</cite></footer>
+    </blockquote>
+     <!-- 为什么这里放个id -->
+
+    <div id="experiencesprofessionnelles" class="zoneCV">
+
+    <h2>Expériences Professionnelles</h2>
+
+    <p><strong>2014 :</strong> Création de mon entreprise #2</p>
+
+    <P><strong>2010 :</strong> Création de mon entreprise #1</P>
+
+    <!-- lien interne -->
+    <a class="bt big" href="details.html">Plus de details</a>
+    
+    </div>
+
+    <div id="Formation" class="zoneCV">
+    <h2>Formation</h2>
+
+    <!-- tableau -->
+    <table border="1" width = "100%">
+
+        <caption> Ma vie, mon oeuvre</caption>
+
+        <!-- ligne 1 -->
+        <tr height="50">
+            <th>Année</th>
+            <th>Ecole</th>
+            <th>Description</th>
+        </tr>
+
+        <!-- ligne 2 -->
+        <tr>
+            <td>2009</td>
+            <td>Paris VIII</td>
+            <td>Master informaqtiue</td>
+        </tr>
+
+        <!-- ligne 3 -->
+        <tr>
+            <td>2007</td>
+            <td>IUT vélizy</td>
+            <td>Licence pro ATC STIC</td>
+        </tr>
+
+    </table>
+    </div>
+
+    <div id="centresinterets" class="zonecv">
+    <h2>Centres d'intérêts</h2>
+
+    <!-- liste ul:unordered list/liste ol:ordered list -->
+    <ul type="square"> <!-- type : disc / square / circle /none -->
+        <li>DIY</li>
+        <li>prog</li>
+        <li>séries</li>
+            <ol type="I"> <!-- type : 1 A a I i none-->
+                <li>Sillicon Valley</li>
+                <li>Casa de Papel</li>
+                <li>Scrubs</li>
+            </ol>
+        <li>hockey</li>
+    </ul>
+    </div>
+
+    <!-- definition list -->
+    <dl>
+        <dt>DIY</dt>
+        <dd>Do It yourself</dd>
+        <dt>ADN</dt>
+        <dd>Acide Désoxyribonucléîque</dd>
+    </dl>
+</body>
+</html>
